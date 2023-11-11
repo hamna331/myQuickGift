@@ -1,0 +1,74 @@
+.navbar-bg {
+    background-color: #7C3626;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-left: 40px;
+    color: white;
+}
+
+.navbar ul li p {
+    font-family: FONTSPRING DEMO - The Seasons;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.24em;
+    text-align: center;
+    color: white;
+}
+.form-inline {
+    margin-right: 40px
+}
+
+.form-control {
+    border: none;
+}
+
+.input-group-text {
+    background-color: white;
+    height: 54px;
+    border: none;
+    border-radius: 50px;
+
+}
+.input-groups{
+    position: relative; 
+    display: inline-block;
+}
+.form-control-sm{
+    padding-right: 30px;
+    /* border-radius: 50px; */
+
+}
+.btn-1 {
+    position: absolute; 
+    top: 0;
+     right: 0; 
+     margin-right: 0px;
+     margin-top: 2px;
+     /* margin-left: 30px;
+     font-size: 10px;
+     align-items: center;
+     width: 200px;
+   font-size: 15px;
+   align-items: center;
+   background-color: #f1bf7a; */
+   /* color: rgb(36, 35, 35); */
+background-color: transparent;
+   border-radius: 50px;
+     /* margin-right: 30px;
+     margin-left: 250px;
+     width: 160px;
+     height: 54px;
+     border: none;  */
+     font-family:sans-serif;
+     /* font-weight: bolder;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     justify-content: center; */
+}

@@ -1,0 +1,38 @@
+.page-title {
+    background-image: url("../Images/about-top-gb-img.png");
+    color: #000;
+  }
+  .page-title-1 {
+    background-image: url("../Images/bg-image.png");
+  }
+  .btn-primary-2 {
+    width: 20px;
+    font-size: 15px;
+    align-items: center;
+    background-color: #f1bf7a;
+    color: black;
+      border-radius: 30px;
+      margin-right: 30px;
+      /* margin-left: 30px; */
+      width: 160px;
+      height: 54px;
+      border: none;
+      font-family:inherit;
+      font-weight: bolder;
+      line-height: 20px;
+      letter-spacing: 0.03em;
+      justify-content: center;
+   }
+   .btn-primary-2:hover {
+    background: #CE9132 !important;
+    color: #000000 !important;
+  }
+  .page-title-1 h2{
+font-size: 43px;  }
+.yellow{
+  background-color: #FFEED5;
+}
+.yellow p{
+  font-size: 22px;
+}
+  
