@@ -1,0 +1,16 @@
+.card-body{
+    background-color: peachpuff;
+}
+.image-fluid{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+    }
+    .row img{
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .page-title-2{
+        background-color: #8e3a27;
+    }
