@@ -40,7 +40,10 @@
   
   .fa-map-marker {
     font-size: 39px;
-    color: #fff;
+    color: #675858;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 15px;
   }
   .text-color {
     color: #fff;
@@ -59,7 +62,7 @@ h2 {
     color: black;
 }
 
-.box {
+.box-1 {
     background-color: #FFEED5;
     border-radius: 7px;
     padding: 46px 60px;
@@ -107,7 +110,7 @@ h2 {
     color: black;
 }
 
-.box {
+.box-1 {
     background-color: #FFEED5;
     border-radius: 7px;
     padding: 46px 60px;

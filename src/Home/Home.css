@@ -43,43 +43,49 @@
     font-size: 20px;
   }
   .btn {
-    width: 200px;
-    margin-left: 30px;
+    /* width: 250px; */
+    /* margin-left: 30px; */
     font-size: 10px;
-    align-items: center;
-    width: 200px;
-  font-size: 15px;
+    /* align-items: center; */
+    /* width: 200px; */
+  font-size: 25px;
   align-items: center;
   background-color: #f1bf7a;
   color: black;
     border-radius: 30px;
     margin-right: 30px;
-    margin-left: 250px;
-    width: 160px;
+    margin-left: 230px;
+    width: 220px;
     height: 54px;
     border: none;
     font-family:sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 24px;
     letter-spacing: 0.03em;
     justify-content: center;
   }
+  .btn:hover {
+    background: #CE9132 !important;
+    color: #000000 !important;
+  }
+  
               /* Card style */
    .home-sections-p{
     background-color: #7C3626;
  }
 
  h2{
-     margin-bottom: 36px;
-     margin-top: 95px;
+     /* margin-bottom: 46px; */
+     margin-top: 85px;
      /* margin-left: 30px; */
      display: flex;
     align-items: center;
-    font-weight: bolder; 
+    /* font-weight: bold;  */
+    font-size: 50px;
     color: white;
   }
    p{
-     margin-bottom: 42px;  
+     /* margin-bottom: 22px;   */
      margin-top: 35px;
      /* margin-left: 30px;  */
      color: white; 
@@ -90,11 +96,11 @@
  }
  .btn-primary-1 {
   /* width: 200px; */
-  margin-left: 30px;
+  /* margin-left: 10px; */
   font-size: 10px;
   /* align-items: center; */
   /* width: 200px; */
-font-size: 15px;
+font-size: 25px;
 align-items: center;
 justify-content: center;
 background-color: #f1bf7a;
@@ -106,7 +112,7 @@ color: black;
   height: 54px;
   border: none;
   font-family:sans-serif;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -117,18 +123,19 @@ color: black;
 }
 
 .row img{
-  margin-bottom: 42px;
-  margin-top: 75px;
+  /* margin-bottom: 42px; */
+  /* margin-top: 95px; */
 }
-           Location */
-           .text-center {
+           /* Location */ */
+           /* .h2 {
             text-align: center !important;
-            font-size: 45px;
+            font-size: 70px;
             font-family: inherit;
-          }
+            font-weight: bold;
+          } */
            .mapouter {
             position: relative;
-            height: 449px;
+            height: 549px;
             width: 100%;
         }
 
@@ -150,12 +157,12 @@ color: black;
         }
      
       .fa-map-marker {
-          color: #716969;
+          color: #675c5c;
           font-size: 52px;
       } 
       
      p {
-          font-size: 24px;
+           font-size: 24px;
           font-weight: 500;
           line-height: 34px;
           letter-spacing: 0em;
@@ -171,6 +178,7 @@ color: black;
         padding: 0px;
         font-size:10px;
         margin-top: 0px;
+        color: #675c5c;
       }
       /* Testimonials */
       .testimonial {
@@ -178,7 +186,14 @@ color: black;
       }
       .testimonial .card {
         background-color: #F8E1C0;
-        border-radius: 17px;}
+        border-radius: 17px;
+      border: none;
+      }
+        
+        .card-image{
+          margin-left: 0px;
+          justify-content: center;
+        }
         .hero {
           background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/bg-image.png');
           height: 300px;

@@ -1,4 +1,4 @@
-.page-title {
+.page-title-4 {
     background-image: url("../Images/about-top-gb-img.png");
     color: #000;
   }
@@ -28,11 +28,15 @@
     color: #000000 !important;
   }
   .page-title-1 h2{
-font-size: 43px;  }
+font-size: 53px;  }
 .yellow{
   background-color: #FFEED5;
 }
 .yellow p{
   font-size: 22px;
+ 
 }
+/* .center-1{
+  margin-top: 10px;
+} */
   
