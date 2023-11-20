@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Hero from "./Hero";
 import Card from "./Card";
 import Location from "./Location";
@@ -8,16 +8,15 @@ import Transform from "./Transform";
 function Home() {
   return (
     <>
-    <div>
-      <Hero/>
-      <Card/>
-      <Location/>
-      <Testimonials/>
-      <Transform/>
-
-    </div>
+      <div>
+        <Hero />
+        <Card />
+        <Location />
+        <Testimonials />
+        <Transform />
+      </div>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

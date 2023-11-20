@@ -24,10 +24,12 @@
     margin-top: 1.5rem !important;
   } */
   p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: normal;
     color: black;
+    margin-top: 10px;
+    margin-left: 10px;
   }
   .footer-links a{
     text-decoration: none;
@@ -37,11 +39,21 @@
   .footer-links li{
   margin-top: 25px;
 }
+.footer-links{
+  margin-left: 70px;
+}
   .social-media-icons img{
     margin: 0px;
-    margin-top: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
   }
+  
   .footer{
     background-color: black;
   }
-  
+  .mail{
+    text-decoration: none;
+  }
+  /* .col-lg-8{
+    margin-left: 20px;
+  } */

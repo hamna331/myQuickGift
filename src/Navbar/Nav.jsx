@@ -1,15 +1,15 @@
 import React from "react";
 import "../Navbar/Nav.css";
-import Logo from "../Images/Logo.png";
+import qwg from "../Images/qwg-gold.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-black">
+    <nav className="navbar navbar-expand-lg bg-black fixed-top">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
-          <img src={Logo} alt="Bootstrap" width="80" height="70" />
+        <NavLink className="navbar-brand"  to="/">
+          <img src={qwg} alt="Bootstrap"  className="w-100" />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -55,7 +55,11 @@ function Navbar() {
             </li>
           </ul>
           <form className="d-flex " role="search">
-            <NavLink className="btn custom-btn text-black d-flex align-item-center " type="submit" to="/book">
+            <NavLink
+              className="btn text-black d-flex align-item-center "
+              type="submit"
+              to="/book"
+            >
               Book
             </NavLink>
           </form>
